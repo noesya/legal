@@ -29,4 +29,4 @@ A. Compliance Measurement: the security team will verify compliance to this poli
 B. Non-Compliance: an employee found to have violated this policy may be subject to disciplinary action, up to and including termination of employment.
 
 # Revision History
-1.0 - Date of change: 01/12/2019 - Responsible: Technical teams - Summary of Change: Initial release
+1.0 Date of change: 01/12/2019 - Responsible: Technical teams - Summary of Change: Initial release

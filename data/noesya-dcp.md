@@ -56,4 +56,4 @@ PHI is defined as "individually identifiable health information" transmitted by 
 
 # Revision History
 
-1.0 - Date of change: 01/12/2019 - Responsible: Technical team - Summary of Change: Initial release
+1.0 Date of change: 01/12/2019 - Responsible: Technical team - Summary of Change: Initial release
