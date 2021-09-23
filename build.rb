@@ -1,4 +1,5 @@
 require 'prawn'
+require 'prawn-svg'
 require 'prawn/measurement_extensions'
 require 'front_matter_parser'
 
@@ -7,9 +8,10 @@ sans = 'fonts/Söhne-Buch.otf'
 
 Dir.glob('data/*') do |file|
   data = FrontMatterParser::Parser.parse_file(file)
-  document_name = "#{ file.split('/').last.gsub('.md', '') }-#{ data.front_matter['version'] }.pdf"
-  file_name = "pdfs/#{ document_name }"
   title = data.front_matter['title']
+  version = data.front_matter['version']
+  document_name = "#{ file.split('/').last.gsub('.md', '') }-#{ version }.pdf"
+  file_name = "pdfs/#{ document_name }"
   puts title
   Prawn::Document.generate( file_name,
                             page_size: 'A4',
@@ -41,8 +43,18 @@ Dir.glob('data/*') do |file|
                 width: 50.mm,
                 height: 75.mm
       line_width 0.25
-      stroke_line [-55.mm, 150], [-10.mm, 150]
-      draw_text "Page #{page_number}", at: [-55.mm, 0], size: 8
+      [
+        document_name,
+        data.front_matter['date'],
+        "Version #{ version }",
+        "Page #{ page_number }",
+        ''
+      ].reverse.each_with_index do |mention, index|
+        y = 10.mm + index * 10.mm
+        stroke_line [-55.mm, y], [-10.mm, y]
+        draw_text mention, at: [-55.mm, y-6.mm], size: 8
+      end
+      svg IO.read("assets/logo-noesya.svg"), at: [-55.mm, 5.mm], width: 22.mm
     end
   end
 end

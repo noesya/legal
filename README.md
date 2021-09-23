@@ -4,4 +4,4 @@
 ruby build.rb
 ```
 
-Fonts are not included, for legal reasons
+Fonts are not included, for legal reasons. They must be added in a /fonts directory.
