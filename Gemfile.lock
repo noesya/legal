@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    front_matter_parser (1.0.1)
+    pdf-core (0.9.0)
+    prawn (2.4.0)
+      pdf-core (~> 0.9.0)
+      ttfunk (~> 1.7)
+    ttfunk (1.7.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  front_matter_parser
+  prawn
+
+RUBY VERSION
+   ruby 2.7.4p191
+
+BUNDLED WITH
+   2.1.4
