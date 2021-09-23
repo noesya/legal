@@ -40,17 +40,17 @@ Dir.glob('data/*') do |file|
     chapters = extract_hierarchy data.content, '# '
     chapters.each_with_index do |chapter, index|
       parts = chapter.split("\n")
-      h1 = "#{index+1}. #{parts.shift}"
+      h2 = "#{index+1}. #{parts.shift}"
       p = parts.join("\n")
-      puts h1
+      puts h2
       move_down 5.mm unless index.zero?
       font sans
-      font_size 15
-      text h1
+      font_size 12
+      text h2
       move_down 2.mm
       font serif
-      font_size 10
-      text p, leading: 0
+      font_size 9
+      text p, leading: 1
     end
     # On each page
     repeat(:all, dynamic: true) do

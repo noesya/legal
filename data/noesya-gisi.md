@@ -3,7 +3,6 @@ title: Gestion des incidents de sécurité de l’information
 date: "01/09/2021"
 version: 1.0
 ---
-
 # Définition
 Un incident de sécurité est un événement causant des dommages, ou susceptible de le faire, à des personnes ou à des organisations. Il s’agit d’un événement ne faisant pas partie du fonctionnement standard d’un service et qui cause, ou peut causer, une interruption ou une diminution de la qualité de ce service.
 
@@ -36,4 +35,4 @@ Etape 7 Clôture de l’incident
 Etape 8 Information finale au client
 
 # Révisions
-1.0 Date of change: 01/12/2019 - Responsible: Technical team - Summary of Change: Initial release
+1.0 Date of change: 01/09/2021 - Responsible: Technical team - Summary of Change: Initial release

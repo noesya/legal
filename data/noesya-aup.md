@@ -46,4 +46,4 @@ Any monitoring will be carried out in accordance with audited, controlled intern
 It is your responsibility to report suspected breaches of security policy without delay to your line management, the IT department, the information security department or the IT helpdesk. All breaches of information security policies will be investigated. Where investigations reveal misconduct, disciplinary action may follow in line with Noesya disciplinary procedures.
 
 # Revision History
-1.0 Date of change: 01/12/2019 - Responsible: Technical teams - Summary of Change: Initial release
+1.0 Date of change: 01/09/2021 - Responsible: Technical teams - Summary of Change: Initial release
