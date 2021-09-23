@@ -6,6 +6,24 @@ require 'front_matter_parser'
 serif = 'fonts/Signifier-Regular.otf'
 sans = 'fonts/Söhne-Buch.otf'
 
+puts 'Generating documents'
+puts
+
+def extract_hierarchy(text, separator)
+  chapters = []
+  paragraph = ''
+  text.each_line do |line|
+    if line.start_with? separator
+      chapters << paragraph unless paragraph.empty?
+      paragraph = line.gsub(separator, '')
+    else
+      paragraph += "#{line}\n"
+    end
+  end
+  chapters << paragraph
+  chapters
+end
+
 Dir.glob('data/*') do |file|
   data = FrontMatterParser::Parser.parse_file(file)
   title = data.front_matter['title']
@@ -19,8 +37,7 @@ Dir.glob('data/*') do |file|
                             right_margin: 10.mm,
                             bottom_margin: 10.mm,
                             left_margin: 65.mm) do
-    chapters = data.content.split('#')
-    chapters.shift
+    chapters = extract_hierarchy data.content, '# '
     chapters.each_with_index do |chapter, index|
       parts = chapter.split("\n")
       h1 = "#{index+1}. #{parts.shift}"
@@ -35,9 +52,10 @@ Dir.glob('data/*') do |file|
       font_size 10
       text p, leading: 0
     end
+    # On each page
     repeat(:all, dynamic: true) do
       font sans
-      font_size 26
+      font_size 22
       text_box  title,
                 at: [-55.mm, 277.mm],
                 width: 50.mm,
@@ -57,4 +75,5 @@ Dir.glob('data/*') do |file|
       svg IO.read("assets/logo-noesya.svg"), at: [-55.mm, 5.mm], width: 22.mm
     end
   end
+  puts
 end
