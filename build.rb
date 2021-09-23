@@ -7,7 +7,8 @@ sans = 'fonts/Söhne-Buch.otf'
 
 Dir.glob('data/*') do |file|
   data = FrontMatterParser::Parser.parse_file(file)
-  file_name = "pdfs/#{ file.split('/').last.gsub('.md', '') }-#{ data.front_matter['version'] }.pdf"
+  document_name = "#{ file.split('/').last.gsub('.md', '') }-#{ data.front_matter['version'] }.pdf"
+  file_name = "pdfs/#{ document_name }"
   title = data.front_matter['title']
   puts title
   Prawn::Document.generate( file_name,
@@ -20,7 +21,7 @@ Dir.glob('data/*') do |file|
     chapters.shift
     chapters.each_with_index do |chapter, index|
       parts = chapter.split("\n")
-      h1 = parts.shift
+      h1 = "#{index+1}. #{parts.shift}"
       p = parts.join("\n")
       puts h1
       move_down 5.mm unless index.zero?

@@ -1,5 +1,6 @@
 ---
 title: Conditions générales de vente
+date: "01/09/2021"
 version: 1.0
 ---
 
