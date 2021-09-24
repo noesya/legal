@@ -41,3 +41,6 @@ A. Compliance Measurement
 The security team will verify compliance to this policy through various methods, including but not limited to, periodic walk-thrus, internal audits, and feedback to the policy owner.
 B. Non-Compliance
 An employee found to have violated this policy may be subject to disciplinary action, up to and including termination of employment.
+
+# Revision History
+1.0 Date of change: 01/09/2021 - Responsible: Technical team - Summary of Change: Initial release
