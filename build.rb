@@ -2,6 +2,7 @@ require 'prawn'
 require 'prawn-svg'
 require 'prawn/measurement_extensions'
 require 'front_matter_parser'
+require './fix.rb'
 
 serif = 'fonts/Signifier-Regular.otf'
 sans = 'fonts/Söhne-Buch.otf'
