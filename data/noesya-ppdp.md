@@ -15,18 +15,15 @@ Les Données Personnelles sont celles traitées par le Sous-traitant (Noesya) po
 « Loi Applicable » : désigne les lois et règlements relatifs au traitement et à la protection des Données personnelles, applicables dans le pays où Noesya est établie. Loi Applicable signifie en particulier : (a) le Règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016, applicable à compter du 25 mai 2018 (ci-après « le Règlement ») ; (b) la Loi Informatique et Libertés n°78-17 du 6 janvier 1978 modifiée.
 
 # La SCOP Noesya
-La Société Noesya, SARL SCOP au capital variable de 25.000 € dont le siège ...
+La Société Noesya, Société coopérative et participative à responsabilité limitée au capital variable de 25.000 € dont le siège est 5 Rue Frédéric Joliot Curie 33150 Cenon.
 A. Prestations Offline
-Les prestations offline fournies par l’Agence recouvrent toutes prestations de publicité et de marketing entraînant l’édition de documents et la réalisation de travaux portant notamment sur l’identité visuelle, la communication institutionnelle, la communication de vente, la communication interne, la communication de réseaux, les stratégies de vente, d’avant-vente et d’après-vente multicanal, la création, l’animation et l’hébergement de programme de fidélité sans que cette liste soit exhaustive.
-B. Prestations Online
-Les prestations online fournies par l’Agence recouvrent toutes les prestations de développement informatique, et notamment les créations de sites Internet, administration de sites, Intranet, Extranet.
+Les prestations fournies par la société le développement Web, notamment : le développement de communs numériques, l'intégration de sites éco-conçus, la création d'expériences interactives (virtuelles et physiques), la tierce maintenance applicative du code produit, la gestion de l'hébergement des applications et toutes les prestations afférentes et connexes.
 
 # Sensibilité à la protection des données à caractère personnel
 Noesya est conscient de son rôle à jouer dans la protection des données à caractère personnel et met pour cela en place diverses mesures allant dans ce sens.
 A. Désignation d’un Correspondant Informatique et Libertés
-M. Pierre-André Boissinot, Directeur du développement, a été désigné en qualité de DPO (Data Protection Officer) auprès de la CNIL, afin de s’assurer du respect de la Loi Applicable relative à la protection des Données à caractère Personnel et de permettre la mise en conformité permanente des Traitements de Données à caractère Personnel effectués par Noesya.
-Coordonnées du DPO :
-...
+M. Sébastien Gaya, a été désigné en qualité de DPO (Data Protection Officer) auprès de la CNIL, afin de s’assurer du respect de la Loi Applicable relative à la protection des Données à caractère Personnel et de permettre la mise en conformité permanente des Traitements de Données à caractère Personnel effectués par Noesya.
+Coordonnées du DPO : dpo@noesya.coop
 B. Actions de sensibilisation, de formation et accompagnement
 Afin de contrôler les méthodologies et procédures relatives à la protection des données à caractère personnel mises en œuvre et de sensibiliser l’ensemble des acteurs y participant, Noesya met en place des actions internes de sensibilisation et de formation de ses équipes.
 Dans le cadre de sa mission, notre DPO a pour mission d’informer les salariés de Noesya des principes fondamentaux du règlement européen, de les sensibiliser à la démarche de l’entreprise et de les former aux nouveaux process internes liés à la protection des Données à caractère Personnel :
