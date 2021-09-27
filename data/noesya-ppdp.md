@@ -16,8 +16,7 @@ Les Données Personnelles sont celles traitées par le Sous-traitant (Noesya) po
 
 # La SCOP Noesya
 La Société Noesya, Société coopérative et participative à responsabilité limitée au capital variable de 25.000 € dont le siège est 5 Rue Frédéric Joliot Curie 33150 Cenon.
-A. Prestations Offline
-Les prestations fournies par la société le développement Web, notamment : le développement de communs numériques, l'intégration de sites éco-conçus, la création d'expériences interactives (virtuelles et physiques), la tierce maintenance applicative du code produit, la gestion de l'hébergement des applications et toutes les prestations afférentes et connexes.
+Les prestations fournies par la société concernent le développement Web, notamment : le développement de communs numériques, l'intégration de sites éco-conçus, la création d'expériences interactives (virtuelles et physiques), la tierce maintenance applicative du code produit, la gestion de l'hébergement des applications et toutes les prestations afférentes et connexes.
 
 # Sensibilité à la protection des données à caractère personnel
 Noesya est conscient de son rôle à jouer dans la protection des données à caractère personnel et met pour cela en place diverses mesures allant dans ce sens.
@@ -81,7 +80,7 @@ Noesya s’assure que toute communication des Données à caractère Personnel 
 - par email : archive (type zip) chiffrée avec mot de passe répondant aux standards. Le mot de passe est communiqué par un autre moyen que l’email (tél., plateforme de communication collaborative, etc.) ;
 - par application de transferts sécurisés de données définie entre le Client et Noesya.
 B.2. Antivirus
-Chaque poste de travail qui le nécessite est équipé d’un antivirus régulièrement mis à jour. Par ailleurs, le réseau informatique et téléphonique de Noesya est lui-même protégé par un firewall (Cisco ASA).
+Chaque poste de travail qui le nécessite est équipé d’un antivirus régulièrement mis à jour. Par ailleurs, le réseau informatique et téléphonique de Noesya est lui-même protégé par un firewall.
 B.3. Stockage des données
 Les données Client sont stockées sur des serveurs Cloud (Google) avec des accès strictement limités au personnel autorisé. Le choix du prestataire de Cloud est déterminé par les habilitations concernant cette activité, ainsi que par les engagements de sécurité et les emplacements physiques des données.
 C. Mesures de sécurité physiques
