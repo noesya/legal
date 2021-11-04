@@ -4,7 +4,7 @@ date: "01/09/2021"
 version: 1.0
 ---
 # Overview
-Remote access to our corporate network is essential to maintain our Team’s productivity, but in many cases this remote access originates from networks that may already be compromised or are at a significantly lower security posture than our corporate network. We must mitigate these external risks the best of our ability.
+Remote access to our corporate network is essential to maintain our team’s productivity, but in many cases this remote access originates from networks that may already be compromised or are at a significantly lower security posture than our corporate network. We must mitigate these external risks the best of our ability.
 
 # Purpose
 The purpose of this policy is to define rules and requirements for connecting to Noesya network from any host. These rules and requirements are designed to minimize the potential exposure to Noesya from damages which may result from unauthorized use of Noesya resources. Damages include the loss of sensitive or company confidential data, intellectual property, damage to public image, damage to critical Noesya internal systems, and fines or other financial liabilities incurred as a result of those losses.
