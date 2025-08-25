@@ -4,11 +4,11 @@ require 'prawn/measurement_extensions'
 require 'front_matter_parser'
 # require './fix.rb'
 
-serif = 'fonts/Signifier-Regular.otf'
-sans = 'fonts/Söhne-Buch.otf'
+serif = 'fonts/signifier-regular.otf'
+sans = 'fonts/soehne-buch.otf'
 
-serif = 'fonts/Lora-Regular.ttf'
-sans = 'fonts/Roboto-Light.ttf'
+# serif = 'fonts/lora-regular.ttf'
+# sans = 'fonts/roboto-light.ttf'
 
 puts 'Generating documents'
 puts
@@ -37,9 +37,9 @@ Dir.glob('data/*') do |file|
   puts title
   Prawn::Document.generate( file_name,
                             page_size: 'A4',
-                            top_margin: 10.mm,
-                            right_margin: 10.mm,
-                            bottom_margin: 10.mm,
+                            top_margin: 15.mm,
+                            right_margin: 15.mm,
+                            bottom_margin: 15.mm,
                             left_margin: 65.mm) do
     chapters = extract_hierarchy data.content, '# '
     chapters.each_with_index do |chapter, index|
@@ -54,14 +54,14 @@ Dir.glob('data/*') do |file|
       move_down 2.mm
       font serif
       font_size 9
-      text p, leading: 1
+      text p, leading: 1.5
     end
     # On each page
     repeat(:all, dynamic: true) do
       font sans
       font_size 22
       text_box  title,
-                at: [-55.mm, 277.mm],
+                at: [-55.mm, 268.mm],
                 width: 50.mm,
                 height: 75.mm
       line_width 0.25
@@ -72,11 +72,11 @@ Dir.glob('data/*') do |file|
         "Page #{ page_number }",
         ''
       ].reverse.each_with_index do |mention, index|
-        y = 10.mm + index * 10.mm
+        y = 15.mm + index * 10.mm
         stroke_line [-55.mm, y], [-10.mm, y]
         draw_text mention, at: [-55.mm, y-6.mm], size: 8
       end
-      svg IO.read("assets/logo-noesya.svg"), at: [-55.mm, 5.mm], width: 22.mm
+      svg IO.read("assets/logo-noesya.svg"), at: [-55.mm, 10.mm], width: 22.mm
     end
   end
   puts
