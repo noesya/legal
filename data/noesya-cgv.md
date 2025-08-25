@@ -5,7 +5,7 @@ version: 1.0
 ---
 
 # Objet
-La Société Noesya est une société coopérative et participative à responsabilité limitée, spécialisée dans le développement web. Les présentes Conditions Générales de Prestations de Services ont pour objet de préciser les conditions dans lesquelles la société Noesya ci-après « la SCOP » fournit au client les services décrits dans leurs propositions commerciales, devis, bons de commande et/ou cahiers des charges. Toutes prestations commandées auprès de la SCOP entraînent l’acceptation sans réserve des présentes conditions.
+La Société noesya est une société coopérative et participative à responsabilité limitée, spécialisée dans le développement web. Les présentes Conditions Générales de Prestations de Services ont pour objet de préciser les conditions dans lesquelles la société noesya ci-après « la SCOP » fournit au client les services décrits dans leurs propositions commerciales, devis, bons de commande et/ou cahiers des charges. Toutes prestations commandées auprès de la SCOP entraînent l’acceptation sans réserve des présentes conditions.
 
 # Prix
 Les prix des prestations vendues sont ceux en vigueur au jour de la prise de commande. Ils sont libellés en euros et calculés hors taxes. Par voie de conséquence, ils seront majorés du taux de TVA au jour de la facturation. La SCOP s’accorde le droit de modifier ses tarifs à tout moment. Toutefois, elle s’engage à facturer les prestations commandées aux prix indiqués lors de l’enregistrement de la commande.

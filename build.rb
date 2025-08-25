@@ -2,13 +2,9 @@ require 'prawn'
 require 'prawn-svg'
 require 'prawn/measurement_extensions'
 require 'front_matter_parser'
-# require './fix.rb'
 
 serif = 'fonts/signifier-regular.otf'
 sans = 'fonts/soehne-buch.otf'
-
-# serif = 'fonts/lora-regular.ttf'
-# sans = 'fonts/roboto-light.ttf'
 
 puts 'Generating documents'
 puts
@@ -41,20 +37,44 @@ Dir.glob('data/*') do |file|
                             right_margin: 15.mm,
                             bottom_margin: 15.mm,
                             left_margin: 65.mm) do
-    chapters = extract_hierarchy data.content, '# '
-    chapters.each_with_index do |chapter, index|
-      parts = chapter.split("\n")
-      h2 = "#{index+1}. #{parts.shift}"
-      p = parts.join("\n")
-      puts h2
-      move_down 5.mm unless index.zero?
-      font sans
-      font_size 12
-      text h2
-      move_down 2.mm
-      font serif
-      font_size 9
-      text p, leading: 1.5
+    level1 = 0
+    level2 = 0
+    level3 = 0
+    data.content.lines.each_with_index do |line, index|
+      if line.start_with?('# ')
+        level1 += 1
+        level2 = 0
+        level3 = 0
+        h1 = "#{level1}. #{line.delete_prefix('# ')}"
+        puts h1
+        move_down 8.mm unless index.zero?
+        font sans
+        font_size 14
+        text h1
+      elsif line.start_with?('## ')
+        level2 += 1
+        h2 = "#{level1}.#{level2}. #{line.delete_prefix('## ')}"
+        puts h2
+        move_down 4.mm
+        font sans
+        font_size 10
+        text h2
+      elsif line.start_with?('### ')
+        level3 += 1
+        h3 = "#{level1}.#{level2}.#{level3} #{line.delete_prefix('### ')}"
+        puts h3
+        move_down 3.mm
+        font serif
+        font_size 9
+        text h3
+      elsif line == "\n"
+        # Nothing, ignore newlines
+      else
+        move_down 1.mm
+        font serif
+        font_size 9
+        text line, leading: 1.5
+      end
     end
     # On each page
     repeat(:all, dynamic: true) do
@@ -76,7 +96,7 @@ Dir.glob('data/*') do |file|
         stroke_line [-55.mm, y], [-10.mm, y]
         draw_text mention, at: [-55.mm, y-6.mm], size: 8
       end
-      svg IO.read("assets/logo-noesya.svg"), at: [-55.mm, 10.mm], width: 22.mm
+      svg IO.read("assets/logo-noesya.svg"), at: [-55.mm, 12.mm], width: 22.mm
     end
   end
   puts
