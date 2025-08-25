@@ -1,8 +1,10 @@
 ---
-title: Plan d'assurance sécurité
+title: Plan d'assurance sécurité (PAS)
 date: "25/08/2025"
 version: 1.0
 ---
+
+Le PAS sert à garantir que le produit, le service ou l’infrastructure sera développé, exploité et maintenu dans des conditions de sécurité conformes aux exigences réglementaires, contractuelles et techniques.
 
 # Organisation et animation de la Sécurité
 Chaque Client désigne les Administrateurs de sa plateforme. Ces Administrateurs sont dès lors en contact avec le Support noesya. Ils seront membres des différents canaux de remontées d’information de l’équipe de développement de noesya, et recevrons par ces canaux les informations de sécurité générales. Pour les cas de projets accompagnés spécifiquement, les clients se verront désigner un contact unique qui centralise les informations du projet, que ce soit au niveau fonctionnel ou sécurité : le chef de projet. Ce contact sera le lien privilégié pour traiter les aspects Sécurité spécifiques au projet.

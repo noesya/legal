@@ -1,8 +1,10 @@
 ---
-title: Politique de Sécurité des Systèmes d'Information
+title: Politique de sécurité des systèmes d'information (PSSI)
 date: "25/08/2025"
 version: 1.0
 ---
+
+La PSSI est un texte de référence qui définit les règles, principes et objectifs de sécurité informatique dans une organisation.
 
 # Contexte
 noesya est une très petite entreprise (TPE, moins de 10 personnes salariées) coopérative. L'équipe est répartie entre deux lieux physiques, à Bordeaux et à Paris. Les personnes pratiquent le télétravail partiel.

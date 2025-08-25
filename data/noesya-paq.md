@@ -1,8 +1,10 @@
 ---
-title: Plan assurance qualité
+title: Plan d'assurance qualité (PAQ)
 date: "25/08/2025"
 version: 1.0
 ---
+
+Le PAQ est un document de projet qui décrit comment la qualité sera organisée, suivie et garantie tout au long du cycle de vie d’un produit ou service (par exemple un site ou une application web).
 
 # Objectifs du plan
 Garantir la qualité du produit final (performance, accessibilité, sécurité, conformité aux besoins).

@@ -1,8 +1,10 @@
 ---
-title: Plan de reprise d'activité
+title: Plan de reprise d'activité (PRA)
 date: "25/08/2025"
 version: 1.0
 ---
+
+Le PRA, parfois appelé Disaster recovery plan (DRP) en anglais, est un document stratégique et opérationnel qui définit comment une organisation peut redémarrer son activité après un incident majeur (cyberattaque, panne, incendie, inondation, coupure réseau, etc.).
 
 # Analyse des risques
 Risques identifiés : 
